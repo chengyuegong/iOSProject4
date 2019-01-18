@@ -12,6 +12,11 @@
 		262A3D3821E6F8A700F6B470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 262A3D3621E6F8A700F6B470 /* Main.storyboard */; };
 		262A3D3A21E6F8A800F6B470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262A3D3921E6F8A800F6B470 /* Assets.xcassets */; };
 		262A3D3D21E6F8A800F6B470 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 262A3D3B21E6F8A800F6B470 /* LaunchScreen.storyboard */; };
+		264DCF3321F2324D009A8DF5 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 264DCF2821F2324A009A8DF5 /* FMResultSet.m */; };
+		264DCF3421F2324D009A8DF5 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 264DCF2A21F2324B009A8DF5 /* FMDatabaseAdditions.m */; };
+		264DCF3521F2324D009A8DF5 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 264DCF2B21F2324B009A8DF5 /* FMDatabaseQueue.m */; };
+		264DCF3621F2324D009A8DF5 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 264DCF2D21F2324C009A8DF5 /* FMDatabase.m */; };
+		264DCF3721F2324D009A8DF5 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 264DCF3221F2324C009A8DF5 /* FMDatabasePool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,18 @@
 		262A3D3921E6F8A800F6B470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		262A3D3C21E6F8A800F6B470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		262A3D3E21E6F8A800F6B470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		264DCF2621F23249009A8DF5 /* MovieSearch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MovieSearch-Bridging-Header.h"; sourceTree = "<group>"; };
+		264DCF2721F2324A009A8DF5 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		264DCF2821F2324A009A8DF5 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		264DCF2A21F2324B009A8DF5 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		264DCF2B21F2324B009A8DF5 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		264DCF2C21F2324B009A8DF5 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		264DCF2D21F2324C009A8DF5 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		264DCF2E21F2324C009A8DF5 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		264DCF2F21F2324C009A8DF5 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		264DCF3021F2324C009A8DF5 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		264DCF3121F2324C009A8DF5 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		264DCF3221F2324C009A8DF5 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +73,22 @@
 			children = (
 				262A3D3221E6F8A700F6B470 /* AppDelegate.swift */,
 				262A3D3421E6F8A700F6B470 /* ViewController.swift */,
+				264DCF3121F2324C009A8DF5 /* FMDatabase.h */,
+				264DCF2D21F2324C009A8DF5 /* FMDatabase.m */,
+				264DCF2F21F2324C009A8DF5 /* FMDatabaseAdditions.h */,
+				264DCF2A21F2324B009A8DF5 /* FMDatabaseAdditions.m */,
+				264DCF3021F2324C009A8DF5 /* FMDatabasePool.h */,
+				264DCF3221F2324C009A8DF5 /* FMDatabasePool.m */,
+				264DCF2721F2324A009A8DF5 /* FMDatabaseQueue.h */,
+				264DCF2B21F2324B009A8DF5 /* FMDatabaseQueue.m */,
+				264DCF2C21F2324B009A8DF5 /* FMDB.h */,
+				264DCF2E21F2324C009A8DF5 /* FMResultSet.h */,
+				264DCF2821F2324A009A8DF5 /* FMResultSet.m */,
 				262A3D3621E6F8A700F6B470 /* Main.storyboard */,
 				262A3D3921E6F8A800F6B470 /* Assets.xcassets */,
 				262A3D3B21E6F8A800F6B470 /* LaunchScreen.storyboard */,
 				262A3D3E21E6F8A800F6B470 /* Info.plist */,
+				264DCF2621F23249009A8DF5 /* MovieSearch-Bridging-Header.h */,
 			);
 			path = MovieSearch;
 			sourceTree = "<group>";
@@ -96,6 +125,7 @@
 				TargetAttributes = {
 					262A3D2E21E6F8A700F6B470 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -135,8 +165,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				264DCF3521F2324D009A8DF5 /* FMDatabaseQueue.m in Sources */,
+				264DCF3321F2324D009A8DF5 /* FMResultSet.m in Sources */,
 				262A3D3521E6F8A700F6B470 /* ViewController.swift in Sources */,
+				264DCF3621F2324D009A8DF5 /* FMDatabase.m in Sources */,
+				264DCF3721F2324D009A8DF5 /* FMDatabasePool.m in Sources */,
 				262A3D3321E6F8A700F6B470 /* AppDelegate.swift in Sources */,
+				264DCF3421F2324D009A8DF5 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +317,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PYMXV64ACQ;
 				INFOPLIST_FILE = MovieSearch/Info.plist;
@@ -291,6 +327,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Chengyue-Gong.MovieSearch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MovieSearch/MovieSearch-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +338,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PYMXV64ACQ;
 				INFOPLIST_FILE = MovieSearch/Info.plist;
@@ -309,6 +348,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Chengyue-Gong.MovieSearch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MovieSearch/MovieSearch-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
