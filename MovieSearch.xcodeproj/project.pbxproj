@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		262A3D3321E6F8A700F6B470 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A3D3221E6F8A700F6B470 /* AppDelegate.swift */; };
-		262A3D3521E6F8A700F6B470 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A3D3421E6F8A700F6B470 /* ViewController.swift */; };
 		262A3D3821E6F8A700F6B470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 262A3D3621E6F8A700F6B470 /* Main.storyboard */; };
 		262A3D3A21E6F8A800F6B470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262A3D3921E6F8A800F6B470 /* Assets.xcassets */; };
 		262A3D3D21E6F8A800F6B470 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 262A3D3B21E6F8A800F6B470 /* LaunchScreen.storyboard */; };
@@ -17,12 +16,24 @@
 		264DCF3521F2324D009A8DF5 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 264DCF2B21F2324B009A8DF5 /* FMDatabaseQueue.m */; };
 		264DCF3621F2324D009A8DF5 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 264DCF2D21F2324C009A8DF5 /* FMDatabase.m */; };
 		264DCF3721F2324D009A8DF5 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 264DCF3221F2324C009A8DF5 /* FMDatabasePool.m */; };
+		264DCF3921F2550E009A8DF5 /* IMDBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264DCF3821F2550E009A8DF5 /* IMDBViewController.swift */; };
+		264DCF3B21F25529009A8DF5 /* RecommendationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264DCF3A21F25529009A8DF5 /* RecommendationsViewController.swift */; };
+		264DCF3D21F25541009A8DF5 /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264DCF3C21F25541009A8DF5 /* OverviewViewController.swift */; };
+		264DCF3F21F2555F009A8DF5 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264DCF3E21F2555F009A8DF5 /* DetailedViewController.swift */; };
+		264DCF4121F25580009A8DF5 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264DCF4021F25580009A8DF5 /* FavoritesViewController.swift */; };
+		264DCF4321F255A6009A8DF5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264DCF4221F255A6009A8DF5 /* SearchViewController.swift */; };
+		264DCF4521F255CD009A8DF5 /* PopularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264DCF4421F255CD009A8DF5 /* PopularViewController.swift */; };
+		264DCF4721F255E4009A8DF5 /* OverviewLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264DCF4621F255E4009A8DF5 /* OverviewLabel.swift */; };
+		264DCF4921F255FB009A8DF5 /* MovieViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264DCF4821F255FB009A8DF5 /* MovieViewCell.swift */; };
+		264DCF4B21F25614009A8DF5 /* FavoritesDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264DCF4A21F25614009A8DF5 /* FavoritesDB.swift */; };
+		264DCF4D21F25622009A8DF5 /* MyJsonDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264DCF4C21F25621009A8DF5 /* MyJsonDecoder.swift */; };
+		264DCF4F21F25632009A8DF5 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264DCF4E21F25632009A8DF5 /* Functions.swift */; };
+		264DCF5121F25645009A8DF5 /* APIResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264DCF5021F25645009A8DF5 /* APIResults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		262A3D2F21E6F8A700F6B470 /* MovieSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		262A3D3221E6F8A700F6B470 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		262A3D3421E6F8A700F6B470 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		262A3D3721E6F8A700F6B470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		262A3D3921E6F8A800F6B470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		262A3D3C21E6F8A800F6B470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,6 +50,19 @@
 		264DCF3021F2324C009A8DF5 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
 		264DCF3121F2324C009A8DF5 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
 		264DCF3221F2324C009A8DF5 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		264DCF3821F2550E009A8DF5 /* IMDBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMDBViewController.swift; sourceTree = "<group>"; };
+		264DCF3A21F25529009A8DF5 /* RecommendationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationsViewController.swift; sourceTree = "<group>"; };
+		264DCF3C21F25541009A8DF5 /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
+		264DCF3E21F2555F009A8DF5 /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
+		264DCF4021F25580009A8DF5 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		264DCF4221F255A6009A8DF5 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		264DCF4421F255CD009A8DF5 /* PopularViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularViewController.swift; sourceTree = "<group>"; };
+		264DCF4621F255E4009A8DF5 /* OverviewLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewLabel.swift; sourceTree = "<group>"; };
+		264DCF4821F255FB009A8DF5 /* MovieViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewCell.swift; sourceTree = "<group>"; };
+		264DCF4A21F25614009A8DF5 /* FavoritesDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesDB.swift; sourceTree = "<group>"; };
+		264DCF4C21F25621009A8DF5 /* MyJsonDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJsonDecoder.swift; sourceTree = "<group>"; };
+		264DCF4E21F25632009A8DF5 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		264DCF5021F25645009A8DF5 /* APIResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +96,19 @@
 			isa = PBXGroup;
 			children = (
 				262A3D3221E6F8A700F6B470 /* AppDelegate.swift */,
-				262A3D3421E6F8A700F6B470 /* ViewController.swift */,
+				264DCF5021F25645009A8DF5 /* APIResults.swift */,
+				264DCF4E21F25632009A8DF5 /* Functions.swift */,
+				264DCF4A21F25614009A8DF5 /* FavoritesDB.swift */,
+				264DCF4821F255FB009A8DF5 /* MovieViewCell.swift */,
+				264DCF4621F255E4009A8DF5 /* OverviewLabel.swift */,
+				264DCF4C21F25621009A8DF5 /* MyJsonDecoder.swift */,
+				264DCF4421F255CD009A8DF5 /* PopularViewController.swift */,
+				264DCF4221F255A6009A8DF5 /* SearchViewController.swift */,
+				264DCF3C21F25541009A8DF5 /* OverviewViewController.swift */,
+				264DCF4021F25580009A8DF5 /* FavoritesViewController.swift */,
+				264DCF3E21F2555F009A8DF5 /* DetailedViewController.swift */,
+				264DCF3A21F25529009A8DF5 /* RecommendationsViewController.swift */,
+				264DCF3821F2550E009A8DF5 /* IMDBViewController.swift */,
 				264DCF3121F2324C009A8DF5 /* FMDatabase.h */,
 				264DCF2D21F2324C009A8DF5 /* FMDatabase.m */,
 				264DCF2F21F2324C009A8DF5 /* FMDatabaseAdditions.h */,
@@ -165,13 +201,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				264DCF4D21F25622009A8DF5 /* MyJsonDecoder.swift in Sources */,
 				264DCF3521F2324D009A8DF5 /* FMDatabaseQueue.m in Sources */,
 				264DCF3321F2324D009A8DF5 /* FMResultSet.m in Sources */,
-				262A3D3521E6F8A700F6B470 /* ViewController.swift in Sources */,
+				264DCF4B21F25614009A8DF5 /* FavoritesDB.swift in Sources */,
+				264DCF3F21F2555F009A8DF5 /* DetailedViewController.swift in Sources */,
+				264DCF4521F255CD009A8DF5 /* PopularViewController.swift in Sources */,
 				264DCF3621F2324D009A8DF5 /* FMDatabase.m in Sources */,
 				264DCF3721F2324D009A8DF5 /* FMDatabasePool.m in Sources */,
 				262A3D3321E6F8A700F6B470 /* AppDelegate.swift in Sources */,
+				264DCF4721F255E4009A8DF5 /* OverviewLabel.swift in Sources */,
+				264DCF4F21F25632009A8DF5 /* Functions.swift in Sources */,
+				264DCF4921F255FB009A8DF5 /* MovieViewCell.swift in Sources */,
+				264DCF3B21F25529009A8DF5 /* RecommendationsViewController.swift in Sources */,
+				264DCF4321F255A6009A8DF5 /* SearchViewController.swift in Sources */,
+				264DCF3D21F25541009A8DF5 /* OverviewViewController.swift in Sources */,
+				264DCF3921F2550E009A8DF5 /* IMDBViewController.swift in Sources */,
+				264DCF4121F25580009A8DF5 /* FavoritesViewController.swift in Sources */,
 				264DCF3421F2324D009A8DF5 /* FMDatabaseAdditions.m in Sources */,
+				264DCF5121F25645009A8DF5 /* APIResults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
